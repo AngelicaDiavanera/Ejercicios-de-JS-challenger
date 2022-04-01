@@ -4,13 +4,11 @@
 // Si no, devuelve el siguiente número primo más alto
 
 function myFunction(a) {
-  let sqrt = Math.floor(Math.sqrt(a)) + 1;
-  for (let i = 2; i < sqrt; i++) {
-    if (a % i == 0) {
-      return false;
-    }
+  if (a / a === a) {
+    return a;
+  } else {
+    return a++;
   }
-  return a;
 }
 
-console.log(myFunction("hola"));
+console.log(myFunction(1));

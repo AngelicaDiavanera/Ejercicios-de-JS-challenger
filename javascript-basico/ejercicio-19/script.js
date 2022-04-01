@@ -4,7 +4,7 @@
 // 'Javascript', 'Campo' y 'Centro'
 // Es posible que desee aplicar métodos básicos de cadena JS como replace(), split(), slice(), etc.
 
-function myFunction(a) {
-  return a.substr(0);
+function myFunction(a, b) {
+  return a + b.replace("%", "").split("").reverse().join("");
 }
-console.log(myFunction("hola"));
+console.log(myFunction("java", "tpi%rcs"));
