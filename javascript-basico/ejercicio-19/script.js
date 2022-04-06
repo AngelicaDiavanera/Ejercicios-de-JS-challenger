@@ -4,7 +4,7 @@
 // 'Javascript', 'Campo' y 'Centro'
 // Es posible que desee aplicar métodos básicos de cadena JS como replace(), split(), slice(), etc.
 
-function myFunction(a, b) {
+function formarPalabras(a, b) {
   return a + b.replace("%", "").split("").reverse().join("");
 }
-console.log(myFunction("java", "tpi%rcs"));
+console.log(formarPalabras("java", "tpi%rcs"));

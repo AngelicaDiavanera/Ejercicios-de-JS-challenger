@@ -2,11 +2,7 @@
 // Dividir a en sus dígitos individuales y devolverlos en una matriz
 // Consejo: es posible que desee cambiar el tipo de número para la división
 
-function myFunction(a) {
-  return String(a)
-    .split("")
-    .map((a) => {
-      return Number(a);
-    });
+function dividirDigitosYDevolverEnUnaMatriz(a) {
+  return String(a).split("");
 }
-console.log(myFunction(1365478));
+console.log(dividirDigitosYDevolverEnUnaMatriz(1365478));

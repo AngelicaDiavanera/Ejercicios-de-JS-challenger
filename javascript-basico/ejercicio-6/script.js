@@ -1,8 +1,10 @@
-// Escribir una función que tome una cadena (a) como argumento
-// Obtener los primeros 3 caracteres de un
+// Escribir una función que tome una cadena como argumento
+// Extrae los últimos 3 caracteres de la cadena
 // Devuelve el resultado
 
-function myFunction(a) {
+function extraerLosTresUltimosCaracteresDeUnString(a) {
   return a.substr(0, 3);
 }
-console.log(myFunction("hola mundo"));
+console.log(extraerLosTresUltimosCaracteresDeUnString("abcdefg"));
+console.log(extraerLosTresUltimosCaracteresDeUnString("1234"));
+console.log(extraerLosTresUltimosCaracteresDeUnString("fgedcba"));

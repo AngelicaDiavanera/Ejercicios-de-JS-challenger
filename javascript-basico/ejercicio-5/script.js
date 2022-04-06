@@ -2,7 +2,9 @@
 // Eliminar los primeros 3 caracteres de un
 // Devuelve el resultado
 
-function myFunction(a) {
+function eliminarLosPrimerosTresCaractresDeUnString(a) {
   return a.slice(3);
 }
-console.log(myFunction("hola mundo"));
+console.log(eliminarLosPrimerosTresCaractresDeUnString("abcdefg"));
+console.log(eliminarLosPrimerosTresCaractresDeUnString("1234"));
+console.log(eliminarLosPrimerosTresCaractresDeUnString("fgedcba"));

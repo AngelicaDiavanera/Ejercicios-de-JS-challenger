@@ -3,12 +3,7 @@
 // De lo contrario, multiplica ambos números
 // Devuelve el valor resultante
 
-function myFunction(a, b) {
-  if (a < b) {
-    return a / b;
-  } else {
-    return a * b;
-  }
+function operacionMatematica(a, b) {
+  return a < b ? a / b : a * b;
 }
-console.log(myFunction(10, 3));
-//a < b ? a / b : a * b
+console.log(operacionMatematica(10, 3));

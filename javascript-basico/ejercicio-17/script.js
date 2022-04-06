@@ -2,7 +2,7 @@
 // Redondea a al segundo dígito después de la coma
 // Devuelve el número redondeado
 
-function myFunction(a) {
+function redondearDigitos(a) {
   return a.toFixed(2);
 }
-console.log(myFunction(10.634444));
+console.log(redondearDigitos(10.634444));

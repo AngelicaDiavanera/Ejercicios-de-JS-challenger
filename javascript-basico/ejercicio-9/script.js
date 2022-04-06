@@ -2,7 +2,9 @@
 // Eliminar los últimos 3 caracteres de un
 // Devuelve el resultado
 
-function myFunction(a) {
+function eliminarLosTresUltimoscaracteresDeUnString(a) {
   return a.slice(0, a.length - 3);
 }
-console.log(myFunction(10050));
+console.log(eliminarLosTresUltimoscaracteresDeUnString("abcdefg"));
+console.log(eliminarLosTresUltimoscaracteresDeUnString("1234"));
+console.log(eliminarLosTresUltimoscaracteresDeUnString("fgedcba"));

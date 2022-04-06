@@ -3,12 +3,12 @@
 // Si a es primo, devuelve a
 // Si no, devuelve el siguiente número primo más alto
 
-function myFunction(a) {
+function esPrimo(a) {
   if (a / a === a) {
     return a;
   } else {
-    return a++;
+    return a;
   }
 }
 
-console.log(myFunction(1));
+console.log(esPrimo(1));
